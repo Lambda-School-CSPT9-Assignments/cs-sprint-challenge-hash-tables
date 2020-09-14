@@ -18,6 +18,7 @@ class TestEx4(unittest.TestCase):
 
     def test_large(self):
         a = list(range(5000000))
+        # a = list(range(500))
         a += [-1,-2,-3]
 
         result = has_negatives(a)
